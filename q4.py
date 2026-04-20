@@ -5,12 +5,12 @@
 
 word = input("Enter any word: ")
 
-print(word[0])
+print(f"The first character is: {word[0]}")
 
-print(word[len(word)-1])
+print(f"The last character is: {word[len(word)-1]}")
 
-print(word[0:4:1])
+print(f"The first four charcters are: {word[0:4:1]}")
 
-print(word[::2])
+print(f"Every other character in the word is {word[::2]}")
 
-print(word[::-1])
+print(f"The word backwards is {word[::-1]}")
